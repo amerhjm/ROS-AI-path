@@ -117,4 +117,21 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 3. Launch the teleoperation node again to enable driving the robot around the world and collecting data from its sensors to create a nearly complete and accurate map:
 
 ```
-roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch. 
+```
+--------------------------------------------------------------------------------------------------------------------------------------------------\
+
+# Task 3 
+teachable machine 
+
+1- open this website: https://teachablemachine.withgoogle.com/train/image
+
+2- choose the number of classes that you want the machine to learn 
+
+3- Upload Images to your classes *note that EACH class has to have similar images or images of the same kind*
+
+4- train your model 
+
+5- Upload a model image to start the comparison by the machine 
+
+6- observe the results 
